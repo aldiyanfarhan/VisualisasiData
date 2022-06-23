@@ -16,8 +16,6 @@ import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 import numpy as np
 
-!pip install bokeh
-
 from bokeh.io import output_file, output_notebook,curdoc
 from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource
